@@ -73,4 +73,7 @@
       text-align: center;
     }
   }
+  .parallax .scroller {
+    font-size: 18px;
+  }
 }
