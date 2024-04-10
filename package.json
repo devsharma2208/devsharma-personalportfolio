@@ -16,8 +16,6 @@
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
     "framer-motion": "^11.0.24",
-    "gsap": "^3.12.5",
-    "gsap-trial": "^3.12.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
