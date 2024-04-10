@@ -1,0 +1,48 @@
+.social-Media-Container {
+  display: flex;
+  margin: 0 2rem;
+  background-color: white;
+  color: black;
+  justify-content: center;
+  gap: 10rem;
+  flex-wrap: wrap;
+  > div {
+    padding-top: 5rem;
+    > a {
+      color: #71717a;
+      font-size: 2rem;
+      fill: #71717a;
+      &:hover {
+        color: #595960;
+      }
+    }
+  }
+}
+#social-dark {
+  background-color: rgb(43, 41, 41);
+  color: white;
+  > div {
+    > a {
+      &:hover {
+        color: #9d9c9c;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .social-Media-Container {
+    margin: 0 1.5rem;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 766px) {
+  .social-Media-Container {
+    gap: 3rem;
+    margin: 0 1rem;
+    > div {
+      padding-top: 2rem;
+      > a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

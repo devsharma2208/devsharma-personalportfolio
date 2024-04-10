@@ -1,0 +1,101 @@
+.about-container {
+  background-color: #fff;
+  color: #000;
+  margin: 0 2rem;
+  overflow: hidden;
+}
+.about-me {
+  margin: 0 2rem;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  > div {
+    width: 52vw;
+    > p {
+      margin-top: 2rem;
+      width: 49vw;
+      font-family: cursive;
+    }
+  }
+  > button {
+    width: 12rem;
+    height: 3rem;
+    background-color: rgb(255, 0, 98);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 1rem;
+    &:hover {
+      background-color: transparent;
+      color: rgb(255, 0, 98);
+      border: 0.1rem solid rgb(255, 0, 98);
+      cursor: pointer;
+    }
+  }
+}
+.about-txt::after {
+  content: "---Who i am ---";
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: red;
+}
+.text-title {
+  > span {
+    color: rgb(223, 0, 0);
+  }
+}
+#about-dark {
+  background-color: rgb(43, 41, 41);
+  color: white;
+}
+.fdafdfa {
+  opacity: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .about-container {
+    margin: 0 1.5rem;
+  }
+  .about-txt {
+    font-size: 0.85rem;
+    overflow: hidden;
+  }
+  .about-me {
+    font-size: 0.65rem;
+    > button {
+      width: 8rem;
+      height: 2.2rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 766px) {
+  .about-container {
+    margin: 0 1rem;
+  }
+  .about-me {
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    > div {
+      width: auto;
+      > p {
+        width: 80vw;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+  .text-title {
+    font-size: 1.3rem;
+  }
+  .fdafdfa {
+    width: 80%;
+  }
+}

@@ -1,0 +1,179 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(248, 240, 240, 0.8);
+  /* background-color: rgba(255 251 235 3); */
+  color: black;
+  margin: 0 2rem;
+  align-items: center;
+  height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+#darktheme {
+  backdrop-filter: blur(4px);
+  background-color: rgba(25, 25, 25, 0.5);
+  color: white;
+  box-shadow: 2px 2px 2px 3px rgba(255, 253, 253, 0.1);
+}
+.hembger-menu {
+  display: none;
+}
+.content {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.links {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: 1.1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.links::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.9s;
+}
+#darktheme-a {
+  color: white;
+}
+#darktheme-a::after {
+  background-color: white;
+}
+.active::after {
+  width: 100%;
+}
+.theme-con {
+  width: 2rem;
+  /* background-color: rgb(235, 226, 226); */
+  background-color: transparent;
+  padding: 0.3rem 0.8rem;
+  box-shadow: 1px 1px 3px 2px rgba(107, 34, 34, 0.3);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.links:hover::after {
+  width: 100%;
+  transition: width 0.9s;
+}
+.name {
+  font-weight: 500;
+  font-family: cursive;
+  color: #f6416c;
+}
+.phonecalls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  > p {
+    font-weight: 300;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+  }
+  > div {
+    border: 2px solid rgb(166, 162, 162);
+    padding: 0.3rem 0.4rem;
+    border-radius: 50%;
+    color: #837d7d;
+    cursor: pointer;
+  }
+}
+#darkicon {
+  background-color: hsl(0, 2%, 20%);
+  color: white;
+  > .moon-sun {
+    color: rgb(255, 255, 255);
+  }
+  > .sun {
+    color: yellow;
+  }
+}
+.moon-sun {
+  /* padding: 0.3rem 0; */
+  font-size: 1.3rem;
+  color: black;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .header {
+    margin: 0 1.5rem;
+  }
+  .content {
+    font-size: 0.5rem;
+    gap: 1.1rem;
+  }
+  .links {
+    font-size: 0.9rem;
+  }
+  .phonecalls {
+    gap: 0.5rem;
+    > p {
+      font-size: 1rem;
+    }
+    > div {
+      font-size: 0.5rem;
+    }
+  }
+  .theme-con {
+    width: 1.5rem;
+  }
+  .moon-sun {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 766px) {
+  .header {
+    margin: 0 1rem;
+  }
+  .moon-sun {
+    font-size: 1rem;
+  }
+  .links {
+    display: none;
+  }
+  .phonecalls {
+    display: none;
+  }
+  .hembger-menu {
+    display: inline;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.35rem 0.3rem 0.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 1px 1px 3px 2px rgba(107, 34, 34, 0.3);
+    > svg {
+      color: rgb(0, 0, 0);
+    }
+  }
+  .fdfdfsdfd {
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+    > svg {
+      font-size: 1.6rem;
+      transform: rotate(90deg);
+    }
+  }
+  /* .theme-con {
+    padding: 0.5rem;
+  } */
+  #dark-hemb {
+    background-color: hsl(0, 2%, 20%);
+    > svg {
+      color: white;
+    }
+  }
+}
