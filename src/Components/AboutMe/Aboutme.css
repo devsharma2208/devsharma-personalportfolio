@@ -18,7 +18,9 @@
     > p {
       margin-top: 2rem;
       width: 49vw;
-      font-family: "Courier New", Courier, monospace;
+      font-family: __Inter_aaf875, __Inter_Fallback_aaf875;
+      line-height: 1.5rem;
+      letter-spacing: 0.08rem;
     }
   }
   > button {

@@ -31,6 +31,7 @@ const Header = () => {
       variants={{
         visible: { y: 0 },
         hidden: { y: "-100%" },
+        behavior: "smooth",
       }}
       animate={hidden ? "hidden" : "visibel"}
       className="header"
