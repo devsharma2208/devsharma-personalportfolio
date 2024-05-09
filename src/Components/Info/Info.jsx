@@ -37,7 +37,7 @@ const Info = () => {
           />
         </div>
       </div>
-      <div className="dev-text-jk animate__animated animate__lightSpeedInRight text">
+      <div className="dev-text-jk animate__animated animate__lightSpeedInRight text1">
         <p className="skil-pa">I create dynamic</p>
         <b className="web-app">Web Applications.</b>
       </div>
