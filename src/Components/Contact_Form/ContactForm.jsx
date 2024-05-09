@@ -32,7 +32,7 @@ const ContactForm = () => {
     };
   });
   useEffect(() => {
-    if (name && email && message) {
+    if (!name || !email || !message) {
       setBtnVisibel(true);
     } else {
       setBtnVisibel(false);
@@ -40,6 +40,7 @@ const ContactForm = () => {
   }, [name, email, message]);
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log("dev");
     emailjs
       .sendForm("service_a6mekm1", "template_3x3hpn3", form.current, {
         publicKey: "bj00uJZXauMUVF1xD",

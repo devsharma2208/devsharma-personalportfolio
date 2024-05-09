@@ -175,7 +175,7 @@ const Projects = () => {
             </p>
             <div>
               <Link
-                to="https://devsharma2208.github.io/Maths-Partner---Javascript-Project---uzjmvs3tiq0m/s"
+                to="https://devsharma2208.github.io/Maths-Partner---Javascript-Project---uzjmvs3tiq0m/"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

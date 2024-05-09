@@ -1,6 +1,6 @@
 import React from "react";
 
-import DevImage from "../../Images/DevImage2.png";
+import DevImage from "../../Images/devimg6.png";
 import "./Info.css";
 import "animate.css";
 import { useDispatch, useSelector } from "react-redux";
