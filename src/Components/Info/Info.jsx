@@ -1,6 +1,6 @@
 import React from "react";
 
-import DevImage from "../../Images/devimg6.png";
+import DevImage from "../../Images/devimg17.png";
 import "./Info.css";
 import "animate.css";
 import { useDispatch, useSelector } from "react-redux";
@@ -31,7 +31,7 @@ const Info = () => {
           <img
             className="img-user"
             src={DevImage}
-            alt="image"
+            alt="personal"
             // height={600}
             // width={500}
           />
