@@ -2,6 +2,8 @@ import React from "react";
 import "./Hembger_menu.css";
 import { Link } from "react-scroll";
 import { useSelector, useDispatch } from "react-redux";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Hembger_menu = () => {
   const toggle = useSelector((state) => state.theme);
   const dispatch = useDispatch();
@@ -80,6 +82,12 @@ const Hembger_menu = () => {
             Contact
           </Link>
         </li>
+        <div className="number">
+          <div>
+            <FontAwesomeIcon icon={faPhoneVolume} />
+          </div>
+          <p>+91 7668776421</p>
+        </div>
       </ul>
     </div>
   );
