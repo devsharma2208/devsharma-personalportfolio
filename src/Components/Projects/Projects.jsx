@@ -150,45 +150,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div
-          className="project "
-          id={`${!selector && "project-dark-part"}`}
-          data-aos="fade-up-right"
-        >
-          <div className="project-details">
-            <h3>Math Partner </h3>
-            <p>React JS</p>
-            <img src={Mathpartner} alt="projectImage" />
-          </div>
-          <div className="fetaures">
-            <h4 className="feature-con">Features</h4>
-            <ul className="flight-content">
-              <li>Simplify Expressions.</li>
-              <li>Integration.</li>
-              <li>Trigonometric Functions.</li>
-              <li>Other...</li>
-            </ul>
-          </div>
-          <div>
-            <p>
-              Live Demo <FontAwesomeIcon icon={faArrowRightLong} />
-            </p>
-            <div>
-              <Link
-                to="https://devsharma2208.github.io/Maths-Partner---Javascript-Project---uzjmvs3tiq0m/"
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              </Link>
-              <Link
-                to="https://github.com/devsharma2208/Maths-Partner---Javascript-Project---uzjmvs3tiq0m"
-                target="_blank"
-              >
-                <FontAwesomeIcon icon={faCode} />
-              </Link>
-            </div>
-          </div>
-        </div>
+
         <div
           className="project "
           id={`${!selector && "project-dark-part"}`}
@@ -257,6 +219,45 @@ const Projects = () => {
               </Link>
               <Link
                 to="https://github.com/devsharma2208/TodoListApp"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faCode} />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div
+          className="project "
+          id={`${!selector && "project-dark-part"}`}
+          data-aos="fade-up-right"
+        >
+          <div className="project-details">
+            <h3>Math Partner </h3>
+            <p>Html, CSS, Javascript</p>
+            <img src={Mathpartner} alt="projectImage" />
+          </div>
+          <div className="fetaures">
+            <h4 className="feature-con">Features</h4>
+            <ul className="flight-content">
+              <li>Simplify Expressions.</li>
+              <li>Integration.</li>
+              <li>Trigonometric Functions.</li>
+              <li>Other...</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Live Demo <FontAwesomeIcon icon={faArrowRightLong} />
+            </p>
+            <div>
+              <Link
+                to="https://devsharma2208.github.io/Maths-Partner---Javascript-Project---uzjmvs3tiq0m/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </Link>
+              <Link
+                to="https://github.com/devsharma2208/Maths-Partner---Javascript-Project---uzjmvs3tiq0m"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faCode} />
