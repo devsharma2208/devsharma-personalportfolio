@@ -22,7 +22,7 @@
     > img {
       width: 3rem;
     }
-    > h1 {
+    > h3 {
       font-size: 1rem;
     }
     > p {
@@ -49,6 +49,9 @@
   }
   .exp {
     >div{
+        >h3{
+            font-size: 0.8rem;
+        }
         >p{
             font-size: 0.7rem;
         }
