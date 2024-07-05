@@ -7,7 +7,7 @@
   justify-content: space-evenly;
   overflow: hidden;
   /* box-shadow: 2px 2px 10px 10px rgba(255, 0, 0, 0.8); */
-  /* padding: 2rem 0; */
+  padding: 0 0.6rem;
 }
 .dev-role {
   font-weight: 600;
@@ -21,7 +21,7 @@
   color: white;
 }
 .text-xl {
-  font-size: 3rem;
+  font-size: 2.65rem;
   margin-left: 3rem;
   font-weight: 600;
 }

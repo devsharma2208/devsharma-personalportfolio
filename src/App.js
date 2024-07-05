@@ -11,6 +11,7 @@ import Social_Media from "./Components/Social_Media/Social_Media";
 import Web_Image from "./Components/Web_Image/Web_Image";
 import { useDispatch, useSelector } from "react-redux";
 import "./style/App.css";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
   const selector = useSelector((state) => state.hemburgur_Menu);
@@ -22,6 +23,7 @@ function App() {
       <Info />
       <Web_Image />
       <AboutMe />
+      <Experience/>
       <Skills />
       <Projects />
       <ContactForm />

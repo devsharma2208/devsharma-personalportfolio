@@ -4,6 +4,8 @@ import Goibibo from "../../Images/Goibibo.png";
 import Reddit from "../../Images/Reddit.png";
 import Amazon from "../../Images/Amazon.png";
 import Mathpartner from "../../Images/Mathpartner.png";
+import backend from "../../Images/backend1.jpg";
+import TodoListApp from "../../Images/todolist2.png";
 
 import {
   faArrowRightLong,
@@ -161,12 +163,10 @@ const Projects = () => {
           <div className="fetaures">
             <h4 className="feature-con">Features</h4>
             <ul className="flight-content">
-              <li>Flights, Hotels, Bus Booking.</li>
-              <li>User Authentication, Protected routes.</li>
-              <li>
-                After successful booking it show success modal and Search
-                Flights, Hotels & Trains.
-              </li>
+              <li>Simplify Expressions.</li>
+              <li>Integration.</li>
+              <li>Trigonometric Functions.</li>
+              <li>Other...</li>
             </ul>
           </div>
           <div>
@@ -195,19 +195,16 @@ const Projects = () => {
           data-aos="flip-right"
         >
           <div className="project-details">
-            <h3>Goibibo Clone</h3>
-            <p>React JS</p>
-            <img src={Goibibo} alt="projectImage" />
+            <h3>E-commerce Blog Backend</h3>
+            <p>Node js, Express js, MongoDB</p>
+            <img src={backend} alt="projectImage" />
           </div>
           <div className="fetaures">
             <h4 className="feature-con">Features</h4>
             <ul className="flight-content">
-              <li>Flights, Hotels, Bus Booking.</li>
-              <li>User Authentication, Protected routes.</li>
-              <li>
-                After successful booking it show success modal and Search
-                Flights, Hotels & Trains.
-              </li>
+              <li>Create a new user, Login a user, Get user information.</li>
+              <li>Add a new Product, Update a Product, Delete a Product.</li>
+              <li>Add to cart, Order.</li>
             </ul>
           </div>
           <div>
@@ -216,13 +213,13 @@ const Projects = () => {
             </p>
             <div>
               <Link
-                to="https://rithikesh-make-my-trip-react-clone.vercel.app/"
+                to="https://github.com/devsharma2208/Full-Stack/tree/master/Backend"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </Link>
               <Link
-                to="https://github.com/devsharma2208/Goibibo-Clone---React-Project-1---sobnc222vpo4"
+                to="https://github.com/devsharma2208/Full-Stack/tree/master/Backend"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faCode} />
@@ -236,19 +233,15 @@ const Projects = () => {
           data-aos="fade-up-left"
         >
           <div className="project-details">
-            <h3>Goibibo Clone</h3>
-            <p>React JS</p>
-            <img src={Goibibo} alt="projectImage" />
+            <h3>Todo List</h3>
+            <p>Html, CSS, Javascript</p>
+            <img src={TodoListApp} alt="projectImage" />
           </div>
           <div className="fetaures">
             <h4 className="feature-con">Features</h4>
             <ul className="flight-content">
-              <li>Flights, Hotels, Bus Booking.</li>
-              <li>User Authentication, Protected routes.</li>
-              <li>
-                After successful booking it show success modal and Search
-                Flights, Hotels & Trains.
-              </li>
+              <li>Add a new task.</li>
+              <li>Delete a task.</li>
             </ul>
           </div>
           <div>
@@ -257,13 +250,13 @@ const Projects = () => {
             </p>
             <div>
               <Link
-                to="https://rithikesh-make-my-trip-react-clone.vercel.app/"
+                to="https://devsharma2208.github.io/TodoListApp/"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </Link>
               <Link
-                to="https://github.com/devsharma2208/Goibibo-Clone---React-Project-1---sobnc222vpo4"
+                to="https://github.com/devsharma2208/TodoListApp"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faCode} />
