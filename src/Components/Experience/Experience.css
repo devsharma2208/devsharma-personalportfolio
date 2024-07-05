@@ -9,6 +9,9 @@
   background-color: rgb(255, 255, 255);
   color: black;
 }
+.ljll{
+    text-align: center;
+}
 .exp {
   margin-top: 2rem;
   text-align: start;
@@ -50,6 +53,9 @@
             font-size: 0.7rem;
         }
     }
+  }
+  .ljll{
+    padding-left: 2.5rem;
   }
   .exp-1 {
     font-size: 0.7rem;

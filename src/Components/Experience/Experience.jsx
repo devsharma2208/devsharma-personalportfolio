@@ -2,11 +2,11 @@ import React from "react";
 import "./Experience.css";
 import { useSelector } from "react-redux";
 const Experience = () => {
-    const selector = useSelector((state) => state.theme);
+  const selector = useSelector((state) => state.theme);
   return (
     <div className="dsafasdf" id={`${!selector ? "experience" : "light"}`}>
       <div>
-        <h1>Experience</h1>
+        <h1 className="ljll">Experience</h1>
       </div>
       <div className="exp">
         <div>
