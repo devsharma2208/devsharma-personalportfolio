@@ -3,7 +3,7 @@ import "./Project.css";
 import Goibibo from "../../Images/Goibibo.png";
 import Reddit from "../../Images/Reddit.png";
 import Amazon from "../../Images/Amazon.png";
-import Mathpartner from "../../Images/Mathpartner.png";
+import Intractive from '../../Images/IntractiveWeb.png'
 import backend from "../../Images/backend1.jpg";
 import TodoListApp from "../../Images/todolist2.png";
 
@@ -39,7 +39,7 @@ const Projects = () => {
         >
           <div className="project-details">
             <h3>Goibibo Clone</h3>
-            <p>React JS</p>
+            <p>React JS, Redux</p>
             <img src={Goibibo} alt="projectImage" />
           </div>
           <div className="fetaures">
@@ -122,7 +122,7 @@ const Projects = () => {
         >
           <div className="project-details">
             <h3>Amazon Clone </h3>
-            <p>React JS</p>
+            <p>React JS, Redux</p>
             <img src={Amazon} alt="projectImage" />
           </div>
           <div className="fetaures">
@@ -232,16 +232,16 @@ const Projects = () => {
           data-aos="fade-up-right"
         >
           <div className="project-details">
-            <h3>Math Partner </h3>
-            <p>Html, CSS, Javascript</p>
-            <img src={Mathpartner} alt="projectImage" />
+            <h3>Star portal </h3>
+            <p>Next js, Tailwind CSS, Redux</p>
+            <img src={Intractive} alt="projectImage" />
           </div>
           <div className="fetaures">
             <h4 className="feature-con">Features</h4>
             <ul className="flight-content">
-              <li>Simplify Expressions.</li>
-              <li>Integration.</li>
-              <li>Trigonometric Functions.</li>
+              <li>User-Friendly Interface</li>
+              <li>Success Stories and Case Studies</li>
+              <li>Use redux for state managment.</li>
               <li>Other...</li>
             </ul>
           </div>
@@ -251,13 +251,13 @@ const Projects = () => {
             </p>
             <div>
               <Link
-                to="https://devsharma2208.github.io/Maths-Partner---Javascript-Project---uzjmvs3tiq0m/"
+                to="https://star-portal-wheat.vercel.app/"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </Link>
               <Link
-                to="https://github.com/devsharma2208/Maths-Partner---Javascript-Project---uzjmvs3tiq0m"
+                to="https://github.com/devsharma2208/star_portal"
                 target="_blank"
               >
                 <FontAwesomeIcon icon={faCode} />

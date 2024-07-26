@@ -9,6 +9,7 @@
   align-items: center;
   text-align: start;
   justify-content: space-evenly;
+
   > div {
     > div {
       display: flex;
@@ -24,6 +25,7 @@
     }
   }
 }
+
 #skills-dark {
   background-color: rgb(43, 41, 41);
   color: white;
@@ -64,6 +66,7 @@
     align-items: start;
     gap: 0;
     margin-top: 3rem;
+
     > div {
       margin-top: -1.5rem;
       > div {

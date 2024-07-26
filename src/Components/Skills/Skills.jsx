@@ -93,7 +93,8 @@ const Skills = () => {
         <div>
           <div data-aos="fade-down-left">
             <img
-              src="https://logosdownload.com/logo/javascript-logo-big.png"
+              className="jsskill"
+              src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
               alt="javascript"
             />
             <h3>JavaScript</h3>
@@ -112,6 +113,13 @@ const Skills = () => {
             />
             <h3>DSA</h3>
           </div>
+          <div data-aos="flip-left">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
+              alt="dsa"
+            />
+            <h3>Tailwind </h3>
+          </div>
           <div data-aos="flip-right">
             <img
               src="https://icons.veryicon.com/png/128/commerce-shopping/linear-mall-icon/more-508.png"
@@ -119,9 +127,7 @@ const Skills = () => {
             />
             <h3>More Libraries</h3>
           </div>
-          <div>
-            <img src="" alt="" />
-          </div>
+         
         </div>
       </div>
     </div>
