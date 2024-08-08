@@ -13,7 +13,7 @@ const AboutMe = () => {
     const pdfUrl = DevCV;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "DevCV_MERN.pdf"; // specify the filename
+    link.download = "DevMernStackDeveloper.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
