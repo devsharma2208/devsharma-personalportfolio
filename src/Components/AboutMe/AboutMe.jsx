@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Aboutme.css";
-import DevCV from "./DevMernStackDeveloper.pdf";
+import DevCV from "./Dev-Sharma-FrontEnd-Resume.pdf";
 import { ReactTyped } from "react-typed";
 import AOS from "aos";
 import "aos/dist/aos.css";
