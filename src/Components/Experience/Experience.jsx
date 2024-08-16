@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="exp-1">
-        <p>March,2024 - June,2024 - 3 month, 18 days</p>
+        <p>March,2024 - Present</p>
         <p>Gurugram, Haryana, India - On-Site</p>
       </div>
     </div>
