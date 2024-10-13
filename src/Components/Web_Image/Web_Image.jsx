@@ -6,7 +6,8 @@ const Web_Image = () => {
   const selector = useSelector((state) => state.theme);
   return (
     <div className="img-content" id={`${!selector && "webimage"}`}>
-      <div className="image-container" data-aos="flip-up">
+      <div className="image-container" data-aos="flip-up"
+       data-aos-duration="1000">
         <img
           src="https://rithikeshh-portfolio.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffarzad-p-xSl33Wxyc-unsplash.ed3c34b0.jpg&w=384&q=75"
           alt="webimg"

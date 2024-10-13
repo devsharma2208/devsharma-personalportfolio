@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AboutMe from "./Components/AboutMe/AboutMe";
 import ContactForm from "./Components/Contact_Form/ContactForm";
 import Footer from "./Components/Footer/Footer";
@@ -12,10 +12,15 @@ import Web_Image from "./Components/Web_Image/Web_Image";
 import { useDispatch, useSelector } from "react-redux";
 import "./style/App.css";
 import Experience from "./Components/Experience/Experience";
+import AOS from "aos";
 
 function App() {
   const selector = useSelector((state) => state.hemburgur_Menu);
-
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <div className="App">
       <Header />
@@ -23,7 +28,7 @@ function App() {
       <Info />
       <Web_Image />
       <AboutMe />
-      <Experience/>
+      <Experience />
       <Skills />
       <Projects />
       <ContactForm />

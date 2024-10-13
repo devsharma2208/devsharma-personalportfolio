@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./Aboutme.css";
 import DevCV from "./Dev-Sharma-FrontEnd-Resume.pdf";
 import { ReactTyped } from "react-typed";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { useSelector } from "react-redux";
 
@@ -18,25 +17,21 @@ const AboutMe = () => {
     link.click();
     document.body.removeChild(link);
   };
-  useEffect(() => {
-    AOS.init({
-      // disable: "phone",
-      duration: 700,
-      // easing: "ease-out-cubic",
-    });
-    AOS.refreshHard();
-  }, []);
 
   return (
     <div className="about-container" id={`about${!selector && "-dark"}`}>
       <div className="about-txt">
-        <h1 className="title" data-aos="fade-left">
+        <h1 className="title" data-aos="fade-left" data-aos-duration="1000">
           About me
         </h1>
       </div>
       <div className="about-me">
         <div data-aos="fade-down-right" class="fdafdfa aos-init aos-animate">
-          <h2 className="text-title">
+          <h2
+            className="text-title"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
             I'm Dev Sharma and I'm a{" "}
             <ReactTyped
               strings={[
@@ -51,7 +46,11 @@ const AboutMe = () => {
               showCursor={true}
             />
           </h2>
-          <p>
+          <p
+            style={{ textAlign: "justify", whiteSpace: "normal" }}
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+          >
             I love learning and solving problems. I wrote my first program in
             December 2022. Afterward, I became deeply interested in programming.
             Upon learning the basics, I explored various programming languages,
@@ -61,7 +60,11 @@ const AboutMe = () => {
             problems and creating innovative solutions in the realm of web
             development.
           </p>
-          <p>
+          <p
+            style={{ textAlign: "justify", whiteSpace: "normal" }}
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+          >
             I have developed several projects that have helped me improve my
             programming skills and learn new concepts every day. Additionally, I
             have gained a solid understanding of data structures and algorithms.

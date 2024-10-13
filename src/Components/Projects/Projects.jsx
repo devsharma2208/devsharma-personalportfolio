@@ -3,7 +3,7 @@ import "./Project.css";
 import Goibibo from "../../Images/Goibibo.png";
 import Reddit from "../../Images/Reddit.png";
 import Amazon from "../../Images/Amazon.png";
-import Intractive from '../../Images/IntractiveWeb.png'
+import Intractive from "../../Images/IntractiveWeb.png";
 import backend from "../../Images/backend1.jpg";
 import TodoListApp from "../../Images/todolist2.png";
 
@@ -14,28 +14,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import Aos from "aos";
 import { useSelector } from "react-redux";
 const Projects = () => {
   const selector = useSelector((state) => state.theme);
-  useEffect(() => {
-    Aos.init({
-      // disable: "phone",
-      duration: 900,
-      easing: "ease-out-cubic",
-    });
-  }, []);
   return (
     <div className="project_container" id={`project${!selector && "-dark"}`}>
       <h1 className="contentName">
-        <span data-aos="fade-right">Proj</span>
-        <span data-aos="fade-left">ects</span>
+        <span data-aos="fade-right" data-aos-duration="1000">
+          Proj
+        </span>
+        <span data-aos="fade-left" data-aos-duration="1000">
+          ects
+        </span>
       </h1>
       <div className="project-con">
         <div
           className="project "
           id={`${!selector && "project-dark-part"}`}
           data-aos="fade-down-right"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>Goibibo Clone</h3>
@@ -77,6 +74,7 @@ const Projects = () => {
           className="project"
           id={`${!selector && "project-dark-part"}`}
           data-aos="flip-left"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>Reddit Clone</h3>
@@ -119,6 +117,7 @@ const Projects = () => {
           className="project"
           id={`${!selector && "project-dark-part"}`}
           data-aos="fade-down-left"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>Amazon Clone </h3>
@@ -155,6 +154,7 @@ const Projects = () => {
           className="project "
           id={`${!selector && "project-dark-part"}`}
           data-aos="flip-right"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>E-commerce Blog Backend</h3>
@@ -193,6 +193,7 @@ const Projects = () => {
           className="project"
           id={`${!selector && "project-dark-part"}`}
           data-aos="fade-up-left"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>Todo List</h3>
@@ -230,6 +231,7 @@ const Projects = () => {
           className="project "
           id={`${!selector && "project-dark-part"}`}
           data-aos="fade-up-right"
+          data-aos-duration="1000"
         >
           <div className="project-details">
             <h3>Star portal </h3>
@@ -250,10 +252,7 @@ const Projects = () => {
               Live Demo <FontAwesomeIcon icon={faArrowRightLong} />
             </p>
             <div>
-              <Link
-                to="https://star-portal-wheat.vercel.app/"
-                target="_blank"
-              >
+              <Link to="https://star-portal-wheat.vercel.app/" target="_blank">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </Link>
               <Link

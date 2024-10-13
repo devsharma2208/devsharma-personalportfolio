@@ -65,7 +65,11 @@ const ContactForm = () => {
       <div>
         <img className="image" src={DevSharma} alt="dev" />
         <form ref={form} onSubmit={sendEmail} className="form-container">
-          <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <label htmlFor="username">Name : </label>
             <input
               type="text"
@@ -78,7 +82,11 @@ const ContactForm = () => {
               required
             />
           </div>
-          <div data-aos="fade-left" data-aos-easing="ease-in-sine">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <label htmlFor="email">Email : </label>
             <input
               type="email"
@@ -91,7 +99,11 @@ const ContactForm = () => {
               required
             />
           </div>
-          <div data-aos="fade-right" data-aos-easing="ease-in-sine">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             <label htmlFor="message">Massage : </label>
             <textarea
               name="message"
@@ -104,7 +116,11 @@ const ContactForm = () => {
               required
             ></textarea>
           </div>
-          <div data-aos="fade-left" data-aos-easing="ease-in-sine">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1000"
+          >
             {/* <button type="submit" disabled>
               Send message
             </button> */}

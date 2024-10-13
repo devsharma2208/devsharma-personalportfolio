@@ -17,22 +17,22 @@ const Social_Media = () => {
       className="social-Media-Container"
       id={`${!selector && "social-dark"}`}
     >
-      <div>
+      <div data-aos="fade-up-right" data-aos-duration="1000">
         <Link to="mailto:devsharmaelc@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-down-left" data-aos-duration="1000">
         <Link to="https://www.instagram.com/devsharma3233/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} />
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-up-right" data-aos-duration="1000">
         <Link to="https://github.com/devsharma2208" target="_blank">
           <FontAwesomeIcon icon={faGithub} />
         </Link>
       </div>
-      <div>
+      <div data-aos="fade-up-left" data-aos-duration="1000">
         <Link
           to="https://www.linkedin.com/in/dev-sharma-007301173/"
           target="_blank"

@@ -5,17 +5,36 @@ const Skills = () => {
   const selector = useSelector((state) => state.theme);
   return (
     <div className="skills" id={`skill${!selector && "s-dark"}`}>
-      <h1>Skills</h1>
+      <h1>
+        <span data-aos="zoom-in-left" data-aos-duration="1000">
+          S
+        </span>
+        <span data-aos="zoom-in-right" data-aos-duration="1000">
+          k
+        </span>
+        <span data-aos="fade-up" data-aos-duration="1000">
+          i
+        </span>
+        <span data-aos="fade-down" data-aos-duration="1000">
+          l
+        </span>
+        <span data-aos="flip-left" data-aos-duration="1000">
+          l
+        </span>
+        <span data-aos="fade-down-right" data-aos-duration="1000">
+          s
+        </span>
+      </h1>
       <div className="language-container">
         <div>
-          <div data-aos="zoom-in-left">
+          <div data-aos="zoom-in-left" data-aos-duration="1000">
             <img
               src="https://icons.veryicon.com/png/System/Hex/html%205.png"
               alt="html"
             />
             <h3>HTML</h3>
           </div>
-          <div data-aos="zoom-in-right">
+          <div data-aos="zoom-in-right" data-aos-duration="1000">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
               alt="react"
@@ -29,11 +48,7 @@ const Skills = () => {
             />
             <h3> Express JS</h3>
           </div>
-          <div
-            data-aos="fade-down"
-            // data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
+          <div data-aos="fade-down" data-aos-duration="1500">
             <img
               src="https://cdn.icon-icons.com/icons2/2415/PNG/512/java_original_wordmark_logo_icon_146459.png"
               alt="java"
@@ -50,14 +65,14 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <div data-aos="zoom-out-right">
+          <div data-aos="zoom-out-right" data-aos-duration="1000">
             <img
               src="https://icons.iconarchive.com/icons/martz90/hex/512/css-3-icon.png"
               alt="css"
             />
             <h3>CSS</h3>
           </div>
-          <div data-aos="zoom-out-left">
+          <div data-aos="zoom-out-left" data-aos-duration="1000">
             {/* <img
               src="https://www.datocms-assets.com/75941/1657707878-nextjs_logo.png"
               alt="next js"
@@ -68,21 +83,21 @@ const Skills = () => {
             />
             <h3>Next JS</h3>
           </div>
-          <div data-aos="zoom-out-up">
+          <div data-aos="zoom-out-up" data-aos-duration="1000">
             <img
               src="https://www.svgrepo.com/show/331488/mongodb.svg"
               alt="mongo"
             />
             <h3>MongoDB</h3>
           </div>
-          <div data-aos="zoom-out-down">
+          <div data-aos="zoom-out-down" data-aos-duration="1000">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
               alt="git"
             />
             <h3>GIT</h3>
           </div>
-          <div data-aos="fade-down-right">
+          <div data-aos="fade-down-right" data-aos-duration="1000">
             <img
               src="https://static-00.iconduck.com/assets.00/redux-icon-2048x1945-ahvhunxp.png"
               alt="redux"
@@ -91,7 +106,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <div data-aos="fade-down-left">
+          <div data-aos="fade-down-left" data-aos-duration="1000">
             <img
               className="jsskill"
               src="https://static.vecteezy.com/system/resources/previews/027/127/560/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
@@ -99,35 +114,34 @@ const Skills = () => {
             />
             <h3>JavaScript</h3>
           </div>
-          <div data-aos="fade-down-right">
+          <div data-aos="fade-down-right" data-aos-duration="1000">
             <img
               src="https://www.mindrops.com/images/nodejs-image.webp"
               alt="node"
             />
             <h3>Node JS</h3>
           </div>
-          <div data-aos="flip-left">
+          <div data-aos="flip-left" data-aos-duration="1000">
             <img
               src="https://tshahab.com/wp-content/uploads/2022/08/data-structure.png"
               alt="dsa"
             />
             <h3>DSA</h3>
           </div>
-          <div data-aos="flip-left">
+          <div data-aos="flip-left" data-aos-duration="1000">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png"
               alt="dsa"
             />
             <h3>Tailwind </h3>
           </div>
-          <div data-aos="flip-right">
+          <div data-aos="flip-right" data-aos-duration="1000">
             <img
               src="https://icons.veryicon.com/png/128/commerce-shopping/linear-mall-icon/more-508.png"
               alt="more"
             />
             <h3>More Libraries</h3>
           </div>
-         
         </div>
       </div>
     </div>
