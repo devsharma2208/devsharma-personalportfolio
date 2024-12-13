@@ -28,7 +28,7 @@ const AboutMe = () => {
       <div className="about-me">
         <div data-aos="fade-down-right" class="fdafdfa aos-init aos-animate">
           <h2
-            className="text-title"
+            className="text-title" //fhkjdhfkaf
             data-aos="fade-up-right"
             data-aos-duration="1000"
           >
