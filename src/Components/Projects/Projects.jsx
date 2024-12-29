@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Project.css";
 import Goibibo from "../../Images/Goibibo.png";
 import Reddit from "../../Images/Reddit.png";
 import Amazon from "../../Images/Amazon.png";
 import Intractive from "../../Images/IntractiveWeb.png";
 import backend from "../../Images/backend1.jpg";
-import TodoListApp from "../../Images/todolist2.png";
+// import TodoListApp from "../../Images/todolist2.png";
+import HeadGen from "../../Images/headGen.jpeg";
 
 import {
   faArrowRightLong,
@@ -28,6 +29,39 @@ const Projects = () => {
         </span>
       </h1>
       <div className="project-con">
+        <div
+          className="project"
+          id={`${!selector && "project-dark-part"}`}
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+        >
+          <div className="project-details">
+            <h3>HeadGen AI</h3>
+            <p>MERN Stack, Tailwind CSS</p>
+            <img src={HeadGen} alt="projectImage" />
+          </div>
+          <div className="fetaures">
+            <h4 className="feature-con">Features</h4>
+            <ul className="flight-content">
+              <li>AI-Powered Headshots</li>
+              <li>Customizable Features</li>
+              <li>Ideal for Professionals</li>
+            </ul>
+          </div>
+          <div>
+            <p>
+              Live Demo <FontAwesomeIcon icon={faArrowRightLong} />
+            </p>
+            <div>
+              <Link to="https://headgen.ai/" target="_blank">
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              </Link>
+              <Link to="https://headgen.ai/" target="_blank">
+                <FontAwesomeIcon icon={faCode} />
+              </Link>
+            </div>
+          </div>
+        </div>
         <div
           className="project "
           id={`${!selector && "project-dark-part"}`}
@@ -189,7 +223,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="project"
           id={`${!selector && "project-dark-part"}`}
           data-aos="fade-up-left"
@@ -226,7 +260,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="project "
           id={`${!selector && "project-dark-part"}`}

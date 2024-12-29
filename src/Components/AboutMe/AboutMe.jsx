@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Aboutme.css";
-import DevCV from "./Dev-Sharma-FrontEnd-Resume.pdf";
+import DevCV from "./Dev-Sharma-Resume.pdf";
 import { ReactTyped } from "react-typed";
 import "aos/dist/aos.css";
 import { useSelector } from "react-redux";
