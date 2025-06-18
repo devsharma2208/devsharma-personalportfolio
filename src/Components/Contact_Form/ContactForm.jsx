@@ -42,7 +42,7 @@ const ContactForm = () => {
     e.preventDefault();
     console.log("dev");
     emailjs
-      .sendForm("service_a6mekm1", "template_3x3hpn3", form.current, {
+      .sendForm("service_lchhhli", "template_3x3hpn3", form.current, {
         publicKey: "bj00uJZXauMUVF1xD",
       })
       .then(
@@ -131,6 +131,7 @@ const ContactForm = () => {
               id={`${!btnVisibel && "btnVisibel"}`}
             />
           </div>
+          <input type="hidden" name="to_name" value="Dev Sharma" />
           {cognifity && (
             <Confetti
               className="confetti"
