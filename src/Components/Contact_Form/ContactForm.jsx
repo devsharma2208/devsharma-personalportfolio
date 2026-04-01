@@ -31,7 +31,7 @@ const ContactForm = () => {
       window.removeEventListener("resize", detectSize);
     };
   });
-  useEffect(() => {
+  useEffect(() => {     
     if (!name || !email || !message) {
       setBtnVisibel(true);
     } else {
@@ -70,7 +70,7 @@ const ContactForm = () => {
             data-aos-easing="ease-in-sine"
             data-aos-duration="1000"
           >
-            <label htmlFor="username">Name : </label>
+            <label htmlFor="username">Name : </label>      
             <input
               type="text"
               name="user_name"

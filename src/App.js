@@ -31,7 +31,7 @@ function App() {
       <Experience />
       <Skills />
       <Projects />
-      <ContactForm />
+      <ContactForm />    
       <Social_Media />
       <Footer />
     </div>
